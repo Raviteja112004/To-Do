@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[linear-gradient(135deg,#153677,#4e085f)]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" m-0 p-0 box-border">
+    <div class="w-[100%]  flex  justify-center ">
+        <div class="w-[100%] max-w-[540px] mb-[500px] min-h-[200px] bg-white mt-[100px]   rounded-md text-lg ">
+            
+            <h2 class="flex text-2xl ml-12 mt-12 text-[#002765] font-semibold">To-Do List <img src="images/icon.png" class="h-7 ml-2"></h2>
+            <div class="flex items-center justify-between mt-4 ml-10 mr-10 ">
+                <input type="text" id="search" class=" bg-gray-100 flex-1 p-3 w-[80%] outline-none text-sm rounded-full border-none" placeholder="Add Tasks">
+                <button class="bg-gray- w-20 ml-2 text-white  border-black bg-blue-400 p-2 rounded-xl" onclick="addtask()">Add</button>
+            </div>
+            <ul class="ml-8 show list-container mb-10 mt-10">
+                <!-- <li class="checked">TASK 1</li>
+                <li class=" ">TASK 1</li>
+                <li class="">TASK 1</li> -->
+            </ul>
+            <!-- <div class="flex justify-center mb-5 "> <button class=" btn h-10 w-auto p-2 rounded-lg text-white bg-orange-400">Reset List</button></div> -->
+
+           
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
